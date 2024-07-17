@@ -14,15 +14,15 @@ os.environ["LANGCHAIN_API_KEY"] = os.getenv("LANGCHAIN_API_KEY")
 # PROMPT TEMPLATE
 prompt = ChatPromptTemplate.from_messages(
     [
-        ("system", "You are a helpful assistant. Please response to the user queries"),
+        ("system", "You are a renown poet. Please write a 2-line poem about the user's queries"),
         ("user", "Question:{question}")
     ]
 )
 
 # streamlit framework
 
-st.title('How can I help you?')
-input_text = st.text_input("Enter question below")
+st.title('Let me write a poem for you')
+input_text = st.text_input("What do you want the poem to be about?")
 
 # openAI LLm
 llm = ChatOpenAI(model="gpt-3.5-turbo")
