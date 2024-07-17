@@ -14,7 +14,7 @@ os.environ["LANGCHAIN_API_KEY"] = os.getenv("LANGCHAIN_API_KEY")
 # PROMPT TEMPLATE
 prompt = ChatPromptTemplate.from_messages(
     [
-        ("system", "You are a renown poet. Please write a 2-line poem about the user's queries"),
+        ("system", "You are a renown poet - Sylvia Plath. Please write a 2-line poem about the user's queries"),
         ("user", "Question:{question}")
     ]
 )
