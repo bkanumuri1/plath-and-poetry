@@ -30,7 +30,7 @@ Try it out here: https://plathandpoetry.streamlit.app/
 ## 📦 Project Structure
 
 ```text
-LANGCHAIN/
+plath-and-poetry/
 ├── chatbot/
 │   ├── app.py              # Main Streamlit app with memory + LLM integration
 │   └── localllama.py       # (Optional) Local OLlama script
@@ -48,7 +48,7 @@ LANGCHAIN/
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/your-username/plath-and-poetry.git
+git clone https://github.com/bkanumuri1/plath-and-poetry.git
 cd plath-and-poetry
 ```
 
